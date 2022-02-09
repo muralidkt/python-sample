@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@muralidkt 
-contentful
-/
-the-example-app.nodejs
-Public
-Code
-Issues
-2
-Pull requests
-24
-Actions
-Security
-Insights
-the-example-app.nodejs/package.json
-@trevoreyre
-trevoreyre Fix: Update nodemon to remove vulnerable event-stream package (#129)
-Latest commit 6c80832 on 12 Feb 2019
- History
- 6 contributors
-@Khaledgarbaya@axe312ger@dlitvakb@trevoreyre@naretini@mariobodemann
-52 lines (52 sloc)  1.58 KB
-   
 {
   "name": "example-contentful-theExampleApp-js",
   "version": "0.0.0",
@@ -79,16 +50,3 @@ Latest commit 6c80832 on 12 Feb 2019
     "yargs": "^11.0.0"
   }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
