@@ -13,10 +13,15 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it and copies all sources into ZIP file for submitting for analysis. Replace this section with your applications build steps
     - uses: actions/checkout@v2
       with:
-        repository: ''
-
-    - run: zip -r veracode-scan-target.zip ./
-
-    # download the Veracode Static Analysis Pipeline scan jar
-    - run: curl --silent --show-error --fail -O https://downloads.veracode.com/securityscan/pipeline-scan-LATEST.zip
-    - run: unzip -o pipeline-scan-LATEST.zip
+        repository: 'muralidkt/python-sample'
+        path: 'python-sample'
+        
+    - run: ls -ltr
+    
+    - uses: actions/checkout@v2
+      with:
+        repository: 'muralidkt/npm-sampe'
+        path: 'npm-sampe'
+        
+    - run: ls -ltr
+    
